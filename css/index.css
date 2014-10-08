@@ -1,0 +1,136 @@
+/* Base */
+/* ----------------------------------------------------------*/
+
+* {
+	margin:0;
+	padding:0;
+}
+html,body {
+	height:100%;
+}
+body {
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:16px;
+	line-height:1.5;
+	font-weight:300;
+	background-color:#303538;
+}
+a {
+	text-decoration:none;
+}
+
+@font-face {
+font-family: 'Windsong';
+  src: url('http://tarrex.com/fonts/Windsong.eot'); /* IE9 Compat Modes */
+  src: url('http://tarrex.com/fonts/Windsong.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://tarrex.com/fonts/Windsong.woff') format('woff'), /* Modern Browsers */
+       url('http://tarrex.com/fonts/Windsong.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+/* Utility */
+
+.wrap:before,.wrap:after {
+	content:"";
+	display:table;
+}
+.wrap:after {
+	clear:both;
+}
+.wrap {
+	max-width:500px;
+	padding:0 30px;
+	margin:0 auto;
+	zoom:1;
+}
+
+/*quotes*/
+.quotes {
+	padding: 16px 0;
+}
+
+.quotes .portrait {
+	text-align: center;
+	padding: 16px 0;
+}
+
+.quotes .portrait img {
+	-webkit-border-radius: 60em;
+	-moz-border-radius: 60em;
+	border-radius: 60em;
+	height: 200px;
+	border: 2px solid white;
+	-webkit-box-shadow: 0 0 20px rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	-moz-box-shadow: 0 0 20px rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	box-shadow: 0 0 20px rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+}
+
+
+.quotes .quote {
+	padding: 16px 0;
+}
+
+blockquote {
+	color: #fff;
+	border-left:5px solid gray;
+	padding-left: 10px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+cite {
+	float: right;
+	padding-top: 16px;
+	padding-right: 32px;
+}
+
+.navbar {
+	text-align: center;
+	padding: 16px 0;
+}
+
+.navbar .nav-link, .navbar .nav-link:visited {
+	color: #fff;
+	margin: 0 10px;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	font-variant: small-caps;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+.navbar .nav-link:hover {
+	color: #303538;
+	background-color: #fff;
+}
+
+@media screen and (max-width:500px) {
+	.wrap {
+	padding:0 12px;
+}
+.navbar .nav-link, .navbar .nav-link:visited {
+	color: #fff;
+	margin: 0px;
+	padding: 5px 5px;
+	border: 1px solid #fff;
+	font-variant: small-caps;
+	border-radius: 10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.navbar .nav-link:hover {
+	color: #303538;
+	background-color: #fff;
+}
+}
+
+.cogito-ergo-sum {
+	padding: 16px 0;
+	text-align: center;
+
+}
+.cogito-ergo-sum p {
+	font-family: Windsong;
+	color: #fff;
+	font-size: 60px;
+}
