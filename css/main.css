@@ -1,7 +1,6 @@
 /* Base */
 body {
 	font-size: 16px;
-	background-color:#ededed;
 }
 
 .page {
@@ -10,10 +9,6 @@ body {
 
 .page-content > * {
 	margin: 20px 0;
-}
-
-.container {
-	max-width: 900px;
 }
 
 pre code {
@@ -59,7 +54,10 @@ blockquote {
 /* Site footer */
 .site-footer {
 	border-top: 1px solid #fff;
-	padding:5px 0;
+	padding: 20px 0;
+	background-color: #222;
+	color: #777;
+	border-radius: 5px;
 }
 
 /* Syntax highlighting styles */
