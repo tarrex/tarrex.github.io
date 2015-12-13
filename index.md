@@ -16,5 +16,4 @@ permalink: /
     <a class="nav-link" href="http://blog.tarrex.com">Blog</a>
     <a class="nav-link" href="http://wiki.tarrex.com">Wiki</a>
     <a class="nav-link" href="http://tarrex.com/project.html">Project</a>
-    <a class="nav-link" href="http://tarrex.com/resume.html">Resume</a>
 </div>

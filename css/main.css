@@ -53,10 +53,14 @@ blockquote {
 
 /* Site footer */
 .site-footer {
-	padding: 20px 0;
-	background-color: #222;
-	color: #777;
-	border-radius: 5px;
+    padding: 20px 0;        
+    position: fixed;
+    background-color: #222;     
+    bottom: 0;
+    color: #777;        
+    width: 100%;
+    border-radius: 5px;     
+    padding: 20px 0;
 }
 
 /* Syntax highlighting styles */
