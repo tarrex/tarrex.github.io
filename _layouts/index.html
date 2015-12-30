@@ -13,6 +13,12 @@
         <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}">
         <link rel="sitemap" type="application/xml" href="{{ "/sitemap.xml" | prepend: site.url }}"  title="Sitemap">
 
+        <script type="text/javascript">
+            if (window.location.protocol != "https:") {
+                window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+            }
+        </script>
+        
         <!-- load css -->
         <link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.url }}">
         

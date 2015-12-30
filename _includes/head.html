@@ -12,6 +12,11 @@
     <link rel="sitemap" type="application/xml" href="{{ "/sitemap.xml" | prepend: site.url }}"  title="Sitemap">    
     
     <!-- Loading javascript -->
+    <script type="text/javascript">
+        if (window.location.protocol != "https:") {
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        }
+    </script>
     <script type="text/javascript" src="{{ "/js/jquery-1.11.1.min.js" | prepend: site.url }}"></script>
     <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.url }}"></script>
     
