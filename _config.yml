@@ -3,7 +3,7 @@ title: Tarrex
 email: c@tarrex.com
 description: "blog notes"
 baseurl: "/"
-url: "http://tarrex.com"
+url: "https://tarrex.com"
 
 # Build settings
 markdown: redcarpet

@@ -21,10 +21,10 @@ a {
 
 @font-face {
 font-family: 'Windsong';
-  src: url('http://tarrex.com/fonts/Windsong.eot'); /* IE9 Compat Modes */
-  src: url('http://tarrex.com/fonts/Windsong.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('http://tarrex.com/fonts/Windsong.woff') format('woff'), /* Modern Browsers */
-       url('http://tarrex.com/fonts/Windsong.ttf')  format('truetype') /* Safari, Android, iOS */
+  src: url('../fonts/Windsong.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Windsong.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Windsong.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Windsong.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
 /* Utility */

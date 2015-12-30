@@ -6,21 +6,18 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 	<url>
-	  <loc>http://tarrex.com/</loc>
+	  <loc>https://tarrex.com/</loc>
 	</url>
 	<url>
-		<loc>http://blog.tarrex.com/</loc>
+		<loc>https://blog.tarrex.com/</loc>
 	</url>
 	<url>
-		<loc>http://wiki.tarrex.com/</loc>
+		<loc>https://wiki.tarrex.com/</loc>
 	</url>
 	<url>
-		<loc>http://tarrex.com/home.html</loc>
+		<loc>https://tarrex.com/home.html</loc>
 	</url>
 	<url>
-	  	<loc>http://tarrex.com/project.html</loc>
-	</url>
-	<url>
-	  	<loc>http://tarrex.com/resume.html</loc>
+	  	<loc>https://tarrex.com/project.html</loc>
 	</url>
 </urlset>
