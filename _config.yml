@@ -1,27 +1,104 @@
-# Site settings
-title: Tarrex
-email: c@tarrex.com
-description: "blog notes wiki"
-baseurl: "/"
-url: "https://tarrex.com"
+# Welcome to Jekyll!
+title: Tarrex 
+email: c@tarrex.com 
+description: >
+  Tarrex's homepage.
 
-# Build settings
-markdown: kramdown
+# Where things we are 
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+includes_dir: _includes
+sass:
+    sass_dir: _sass
+    style:    compressed
+data_dir:     _data
+# collections:
+#     posts:
+#         output: true
+#         permalink: /:collection/:year/:month/:day/:title 
+
+# Handling Reading
+safe:                false
+include:             [".htaccess"]
+exclude:             ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:          [".git", ".svn"]
+encoding:            "utf-8"
+markdown_ext:        "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: false 
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+
+# Plugins
+whitelist: []
+plugins: []
+
+# Conversion
+markdown:          kramdown
+highlighter:       rouge
+lsi:               false
+excerpt_separator: "\n\n"
+incremental:       false 
+
+# Serving
+detach:           false
+port:             4000
+host:             127.0.0.1
+baseurl:          "" # does not include hostname
+show_dir_listing: false
+
+# Outputting
+permalink:     pretty
+# paginate:      20
+# paginate_path: /page:num
+timezone:      Asia/Shanghai
+
+quiet:    false
+verbose:  false
+defaults: []
+
+liquid:
+  error_mode: warn
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
 
 kramdown:
-  input: GFM
-  entity_output: as_char
-  auto_ids: true
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  syntax_highlighter: rouge
-  footnote_nr: 1
-  line_numbers: true
+  auto_ids:       true
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
 
-permalink: none
+# Default setting
+# defaults:
+#     -
+#         scope:
+#             path: "_posts"
+#             type: posts
+#         values:
+#             title: "Posts"
+#             layout: page
+#             author: "Tarrex"
 
-analytics :
-    provider : google
-    google :
-        tracking_id : "UA-54701139-1"
+# Custom WEBrick Headers
+#webrick:
+#    headers:
+#        My-Header: My-Value
+#        My-Other-Header: My-Other-Value
+
+# Custom Values
+force_https: true
+date_format: "%Y-%m-%d"
+google_analytics: "UA-54701139-1"
