@@ -89,7 +89,7 @@ kramdown:
 #             type: posts
 #         values:
 #             title: "Posts"
-#             layout: page
+#             layout: post
 #             author: "Tarrex"
 
 # Custom WEBrick Headers
@@ -102,3 +102,9 @@ kramdown:
 force_https: true
 date_format: "%Y-%m-%d"
 google_analytics: "UA-54701139-1"
+homepage:
+    name: Tarrex
+    link: https://tarrex.com
+license:
+    name: BY-NC-ND-4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
