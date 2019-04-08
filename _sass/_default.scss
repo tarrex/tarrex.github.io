@@ -1,8 +1,9 @@
 @charset "utf-8";
 
-$text-color:       #333 !default;
-$background-color: #fff !default;
-$grey-color:       #aaa !default;
-$border-color:     #ededed !default;
+$text-color:           #333 !default;
+$text-color-secondary: #666 !default;
+$background-color:     #fff !default;
+$grey-color:           #aaa !default;
+$border-color:         #ededed !default;
 
 @import "base";
