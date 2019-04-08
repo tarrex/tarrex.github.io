@@ -1,0 +1,115 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    background-color: $background-color;
+    margin-top: 8%;
+}
+
+a {
+    color: $theme-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $grey-color;
+        text-decoration: none;
+    }
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    .avatar {
+        max-width: 100px;
+        margin: 0 auto;
+        border: 0px solid #fff;
+        border-radius: 100%;
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    .intro {
+        padding: 20px 0;
+        text-align: center;
+        
+        .name {
+            font-size: 32px;
+            font-weight: 900;
+            margin-top: 0;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .desc {
+            color: $grey-color;
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+            margin: 0 auto;
+        }
+    }
+
+    .link-list, .social-list {
+        padding-left: 0;
+        text-align: center;
+
+        li {
+            display: inline;
+            padding: 10px;
+        }
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+    
+    .main, .footer {
+        border-top: 1px solid $border-color;
+        padding: 20px 0;
+        position: relative;
+
+        &:before {
+            display: block;
+            content: " ";
+            width: 7px;
+            height: 7px;
+            border: $border-color 1px solid;
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            margin-left: -5px;
+            background: #FFF;
+            box-shadow: #FFF 0 0 0 5px;
+            border-radius: 3px;
+        }
+    }
+
+    .content {
+        padding: 0px 20px;
+        ul {
+            padding-left: 20px;
+        }
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 14px;
+        color: $grey-color;
+
+        a {
+            color: $grey-color;
+            text-decoration: none;
+            
+            &:hover {
+                color: $grey-color;
+                text-decoration: underline;
+            }
+        }
+    }
+}

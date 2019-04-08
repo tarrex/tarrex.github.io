@@ -1,0 +1,36 @@
+intro:
+    name: Tarrex Chen
+    desc: Learner / Reader / Writer / Programmer
+    avatar:
+        display: true
+        path: profile.png
+social:
+    linkedin:
+    github: tarrex
+    gitlab: 
+    bitbucket: 
+    twitter: _tarrex
+    stackoverflow: tarrex
+    codewars: 
+    goodreads: 
+    weibo: 
+    
+links:
+    - name: Blog
+      url: https://blog.tarrex.com
+    - name: Wiki
+      url: https://wiki.tarrex.com
+    - name: About
+      url: /about
+    - name: Projects
+      url: /projects
+    - name: Resume
+      url: https://resume.tarrex.com
+
+about: |
+    Yet another programmer.
+
+projects:
+    - name:
+      link: 
+      details: |

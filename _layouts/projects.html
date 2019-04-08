@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="content">
+
+  {% assign projects = site.data.data.projects %}    
+    {% for project in projects %}
+      <div class="item">
+
+        <h4 class="project-title">
+          <a href="{{ project.link }}" target="_blank">{{ project.name }}</a>
+        </h4>
+
+        {% if project.details %}
+        <div class="details">
+          {{ project.details | markdownify }}
+        </div>
+        {% endif %}
+
+      </div>
+    {% endfor %}  
+</div>
