@@ -21,4 +21,7 @@ lang: en
 force_https: true
 date_format: "%Y-%m-%d"
 google_analytics: "UA-54701139-1"
-theme_color: "#42A8C0"
+color:
+    theme: "#42A8C0 !default"
+    text: "#34495e !default"
+    background: "#fdfdfd !default"
