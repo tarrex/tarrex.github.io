@@ -35,6 +35,11 @@ about: |
     Using MacOS / Git / Vim / Go / Python, etc.
 
 projects:
-    - name:
-      link:
+    - name: dotfiles
+      link: https://github.com/tarrex/dotfiles
       details: |
+        My dotfiles about the configuration of zsh/vim/tmux/ctags, etc.
+    - name: Online Resume
+      link: https://github.com/tarrex/online-resume
+      details: |
+        Yet another resume template based on jekyll. You can wirte your resume using markdown, it will be rendered into html and can be printed as pdf. [Demo](https://tarrex.github.io/online-resume)
