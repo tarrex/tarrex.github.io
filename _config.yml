@@ -9,9 +9,6 @@ sass:
     style: compressed
 data_dir: _data
 
-whitelist: []
-plugins: []
-
 # Outputting
 permalink: date
 timezone: Asia/Shanghai
