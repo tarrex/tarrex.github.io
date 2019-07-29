@@ -1,5 +1,12 @@
 {% assign social = site.data.data.social %}
 <ul class="social-list">
+    {% if social.email %}
+        <li class="email">
+            <a href="mailto:{{ social.email }}" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </li>
+    {% endif %}
 
     {% if social.linkedin %}
         <li class="linkedin">
@@ -72,5 +79,28 @@
             </a>
         </li>
     {% endif %}
-    
+
+    {% if social.wechat %}
+        <li class="weixin">
+            <a href="wechat://{{ social.wechat }}" target="_blank">
+                <i class="fab fa-weixin"></i>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if social.telegram %}
+        <li class="telegram">
+            <a href="https://t.me/{{ social.telegram }}" target="_blank">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if social.steam %}
+        <li class="steam">
+            <a href="https://steamcommunity.com/profiles/{{ social.steam }}" target="_blank">
+                <i class="fab fa-steam"></i>
+            </a>
+        </li>
+    {% endif %}
 </ul>

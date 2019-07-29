@@ -5,15 +5,19 @@ intro:
         display: true
         path: profile.png
 social:
-    linkedin:
+    email: tarrexchen@gmail.com
+    linkedin: 
     github: tarrex
     gitlab: 
     bitbucket: 
-    twitter:
-    stackoverflow:
+    twitter: 
+    stackoverflow: 
     codewars: 
     goodreads: 
     weibo: 
+    wechat: 
+    telegram: tarrex
+    steam: 
     
 links:
     - name: Blog
