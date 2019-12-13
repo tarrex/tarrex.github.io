@@ -28,8 +28,6 @@ links:
       url: /about
     - name: Projects
       url: /projects
-    - name: Resume
-      url: https://resume.tarrex.com
 
 about: |
     A man.
