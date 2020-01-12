@@ -6,19 +6,19 @@ intro:
         path: profile.png
 social:
     email: tarrexchen@gmail.com
-    linkedin: 
+    linkedin:
     github: tarrex
-    gitlab: 
-    bitbucket: 
-    twitter: 
-    stackoverflow: 
-    codewars: 
-    goodreads: 
-    weibo: 
-    wechat: 
+    gitlab:
+    bitbucket:
+    twitter:
+    stackoverflow:
+    codewars:
+    goodreads:
+    weibo:
+    wechat:
     telegram: tarrex
-    steam: 
-    
+    steam:
+
 links:
     - name: Blog
       url: https://blog.tarrex.com
@@ -32,7 +32,11 @@ links:
 about: |
     A man.
 
-    Living in Beijing, China.
+    Temporary living in Beijing, China.
+
+    Use macOS / Vim / Golang etc.
+
+    Write some code to earn milk and bread.
 
 projects:
     - name: dotfiles
