@@ -30,6 +30,8 @@ links:
       url: /about
     - name: Projects
       url: /projects
+    - name: Toolbox
+      url: /toolbox
 
 about: |
     A man.
@@ -39,6 +41,15 @@ about: |
     Use macOS / Vim / Golang etc.
 
     Write some code to earn milk and bread.
+
+toolbox: |
+    + Finance
+      + [payoneer](https://www.payoneer.com)
+      + [beancount](http://furius.ca/beancount/)
+    + Server / Domain / CDN
+      + [Linode](https://www.linode.com/?r=7237d40470426cb9f4e4c3bbcad48fadac055ea5)
+      + [GoDaddy](https://www.godaddy.com)
+      + [Cloudflare](https://www.cloudflare.net)
 
 projects:
     - name: Online Resume
