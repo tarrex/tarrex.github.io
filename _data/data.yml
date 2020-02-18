@@ -22,6 +22,8 @@ social:
 links:
     - name: Blog
       url: https://blog.tarrex.com
+    - name: Wiki
+      url: https://wiki.tarrex.com
     - name: Read
       url: https://read.tarrex.com
     - name: About
@@ -39,10 +41,6 @@ about: |
     Write some code to earn milk and bread.
 
 projects:
-    - name: dotfiles
-      link: https://github.com/tarrex/dotfiles
-      details: |
-        My dotfiles about the configuration of zsh/vim/tmux/ctags, etc.
     - name: Online Resume
       link: https://github.com/tarrex/online-resume
       details: |
