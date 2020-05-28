@@ -160,7 +160,7 @@ pre {
     margin: 0 auto;
     padding: 0 $spacing-unit;
     @extend %clearfix;
-    
+
     @include media-query($on-laptop) {
         max-width: $content-width;
         padding: 0 $spacing-unit/2;
