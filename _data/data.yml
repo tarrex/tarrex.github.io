@@ -6,24 +6,12 @@ intro:
         path: profile.png
 social:
     email: tarrexchen@gmail.com
-    linkedin:
     github: tarrex
-    gitlab:
-    bitbucket:
-    twitter:
-    stackoverflow:
-    codewars:
-    goodreads:
-    weibo:
-    wechat:
     telegram: tarrex
-    steam:
 
 links:
     - name: Blog
       url: https://blog.tarrex.com
-    - name: Wiki
-      url: https://wiki.tarrex.com
     - name: Read
       url: https://read.tarrex.com
     - name: About
@@ -40,7 +28,7 @@ about: |
 
     Use macOS / Vim / Golang etc.
 
-    Write some code to earn milk and bread.
+    Coding to earn milk and bread.
 
 toolbox: |
     + Finance

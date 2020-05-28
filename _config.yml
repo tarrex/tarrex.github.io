@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
-title: Tarrex 
-email: tarrexchen@gmail.com 
+title: Tarrex
+email: tarrexchen@gmail.com
 url: https://tarrex.com
 description: >
   Tarrex's homepage.
@@ -14,7 +14,7 @@ permalink: date
 timezone: Asia/Shanghai
 
 # Custom Values
-lang: en    
+lang: en
 force_https: true
 date_format: "%Y-%m-%d"
 google_analytics: "UA-54701139-1"

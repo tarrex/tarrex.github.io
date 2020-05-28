@@ -8,6 +8,38 @@
         </li>
     {% endif %}
 
+    {% if social.phone %}
+        <li class="phone">
+            <a href="tel:{{ contact.phone }}">
+                <i class="fas fa-phone"></i>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if social.whatsapp %}
+    <li class="whatsapp">
+        <a href="https://wa.me/{{ contact.whatsapp }}" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if social.telegram %}
+        <li class="telegram">
+            <a href="https://t.me/{{ social.telegram }}" target="_blank">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if social.medium %}
+    <li class="medium">
+        <a href="https://medium.com/@{{ contact.medium }}" target="_blank">
+            <i class="fab fa-medium"></i>
+        </a>
+    </li>
+    {% endif %}
+
     {% if social.linkedin %}
         <li class="linkedin">
             <a href="https://linkedin.com/in/{{ social.linkedin }}" target="_blank">
@@ -56,12 +88,12 @@
         </li>
     {% endif %}
 
-    {% if social.codewars %}
-        <li class="codewars">
-            <a href="https://www.codewars.com/users/{{ social.codewars }}/completed_solutions" target="_blank">
-                <i class="fas fa-code"></i>
-            </a>
-        </li>
+    {% if social.quora %}
+    <li class="quora">
+        <a href="https://www.quora.com/profile/{{ contact.quora }}" target="_blank">
+            <i class="fab fa-quora"></i>
+        </a>
+    </li>
     {% endif %}
 
     {% if social.goodreads %}
@@ -76,22 +108,6 @@
         <li class="weibo">
             <a href="https://weibo.com/{{ social.weibo }}" target="_blank">
                 <i class="fab fa-weibo"></i>
-            </a>
-        </li>
-    {% endif %}
-
-    {% if social.wechat %}
-        <li class="weixin">
-            <a href="wechat://{{ social.wechat }}" target="_blank">
-                <i class="fab fa-weixin"></i>
-            </a>
-        </li>
-    {% endif %}
-
-    {% if social.telegram %}
-        <li class="telegram">
-            <a href="https://t.me/{{ social.telegram }}" target="_blank">
-                <i class="fab fa-telegram"></i>
             </a>
         </li>
     {% endif %}
