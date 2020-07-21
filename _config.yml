@@ -1,24 +1,19 @@
 # Welcome to Jekyll!
 title: Tarrex
-email: tarrexchen@gmail.com
 url: https://tarrex.com
 description: >
   Tarrex's homepage.
 
-sass:
-    style: compressed
-data_dir: _data
-
 # Outputting
-permalink: date
-timezone: Asia/Shanghai
+permalink:     /:title
+timezone:      Asia/Shanghai
 
-# Custom Values
-lang: en
-force_https: true
-date_format: "%Y-%m-%d"
-google_analytics: "UA-54701139-1"
+# Custom
 color:
     theme: "#00ADB5 !default"
     text: "#34495e !default"
     background: "#fdfdfd !default"
+
+date_format: "%Y-%m-%d"
+
+google_analytics: "UA-54701139-1"
