@@ -8,6 +8,7 @@ social:
     email: m@tarrex.com
     github: tarrex
     telegram: tarrex
+    goodreads: 37642170-tarrex
 
 links:
     - name: Blog
@@ -43,4 +44,4 @@ projects:
     - name: Online Resume
       link: https://github.com/tarrex/online-resume
       details: |
-        Yet another resume template based on jekyll. You can wirte your resume using markdown, it will be rendered into html and can be printed as pdf. [Demo](https://tarrex.github.io/online-resume)
+          Yet another resume template based on jekyll. You can wirte your resume using markdown, it will be rendered into html and can be printed as pdf. [Demo](https://tarrex.github.io/online-resume)
