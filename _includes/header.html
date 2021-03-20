@@ -7,8 +7,12 @@
     {% endif %}
 
     <div class="intro">
+        {% if intro.name %}
         <h1 class="name">{{ intro.name }}</h1>
+        {% endif %}
+        {% if intro.desc %}
         <h2 class="desc">{{ intro.desc }}</h2>
+        {% endif %}
     </div>
 
     <div class="social">

@@ -10,7 +10,7 @@
 
     {% if social.phone %}
     <li class="phone">
-        <a href="tel:{{ contact.phone }}">
+        <a href="tel:{{ social.phone }}">
             <i class="fas fa-phone"></i>
         </a>
     </li>
@@ -18,7 +18,7 @@
 
     {% if social.whatsapp %}
     <li class="whatsapp">
-        <a href="https://wa.me/{{ contact.whatsapp }}" target="_blank">
+        <a href="https://wa.me/{{ social.whatsapp }}" target="_blank">
             <i class="fab fa-whatsapp"></i>
         </a>
     </li>
@@ -34,7 +34,7 @@
 
     {% if social.medium %}
     <li class="medium">
-        <a href="https://medium.com/@{{ contact.medium }}" target="_blank">
+        <a href="https://medium.com/@{{ social.medium }}" target="_blank">
             <i class="fab fa-medium"></i>
         </a>
     </li>
@@ -44,6 +44,22 @@
     <li class="linkedin">
         <a href="https://linkedin.com/in/{{ social.linkedin }}" target="_blank">
             <i class="fab fa-linkedin"></i>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if social.google-scholar %}
+    <li class="google-scholar">
+        <a href="https://scholar.google.com/citations?user={{ social.google-scholar }}" target="_blank">
+            <i class="ai ai-google-scholar"></i>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if social.researchgate %}
+    <li class="researchgate">
+        <a href="https://www.researchgate.net/profile/{{ social.researchgate }}" target="_blank">
+            <i class="fab fa-researchgate"></i>
         </a>
     </li>
     {% endif %}
@@ -90,7 +106,7 @@
 
     {% if social.quora %}
     <li class="quora">
-        <a href="https://www.quora.com/profile/{{ contact.quora }}" target="_blank">
+        <a href="https://www.quora.com/profile/{{ social.quora }}" target="_blank">
             <i class="fab fa-quora"></i>
         </a>
     </li>
