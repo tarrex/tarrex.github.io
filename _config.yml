@@ -5,16 +5,17 @@ description: >
   Tarrex's homepage.
 
 # Outputting
-permalink:     /:title
-timezone:      Asia/Shanghai
+permalink:  /:title
+timezone:   Asia/Shanghai
 
 # Custom
 color:
-    theme: "#00ADB5 !default"
-    text: "#34495e !default"
-    background: "#fdfdfd !default"
+  theme: '#00ADB5 !default'
+  text: '#34495e !default'
+  background: '#fdfdfd !default'
 
-date_format: "%Y-%m-%d"
+date_format: '%Y-%m-%d'
 
-google_analytics: "UA-54701139-1"
-cloudflare_analytics: "4edcbe7acd4d459d8509c7e5bc071b53"
+analytics:
+  google: UA-54701139-1
+  cloudflare: 4edcbe7acd4d459d8509c7e5bc071b53
